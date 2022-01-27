@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  font-family: Inconsolata, Roboto Mono, monospace;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.2;
+}
+.main {
+  padding: 10px;
+  display: flex;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section {
+  padding: 5px;
+  align-items: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.image-profile {
+  max-width: 300px;
+  margin: auto auto 25px;
+}
+figure {
+  border: 2px solid #ccc;
+  padding: 2px;
+}
+figcaption {
+  padding: 4px;
+  text-align: center;
+}
+p {
+  margin-bottom: 1rem;
+}
