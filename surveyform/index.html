@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Survey Form</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="welcome">
+			<h1 id="title">Bienvenido a esta breve encuensta para Ciclistas.</h1>
+			<p id="description">Gracias por tomarse el tiempo de responder algunas preguntas.</p>
+		</div>
+		<form action="#" method="post" id="survey-form" class=" inner">
+			<div class="form-group">
+				<label for="name" id="name-label">Nombre</label>
+				<input type="text" name="name" id="name" placeholder="Ingrese Su Nombre" required>
+			</div>
+			<div class="form-group">
+				<label for="email" id="email-label">Email</label>
+				<input type="email" name="email" id="email" placeholder="Ingrese su correo Electrónico" required>
+			</div>
+			<div class="form-group">
+				<label for="age" id="number-label">Edad</label>
+				<input type="number" name="age" id="number" max="100" min="1" placeholder="Ingrese Su edad" required>
+			</div>
+			<div class="form-group">
+				<label for="select">¿Cual crees que sea la mejor bicicleta recorrer la ciudad?</label>
+				<select name="select" id="dropdown">
+					<option value="option" selected>Selecione una Opción</option>
+					<option value="xc">Cross Country XC</option>
+					<option value="route">Rutera</option>
+					<option value="mtb">Montañera</option>
+					<option value="fixedgear">Bicicleta de piñon fíjo</option>
+					<option value="sigle-speed">Bicicleta Single Speed</option>
+					<option value="spa">Bicicleta Asistida (SPA)</option>
+					<option value="other">Otra</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<p>¿Cuantas veces a la semana sales a pedalear?</p>
+				<input type="radio" id="option1" name="select" value="5" checked><label for="option1">1 - 5</label><br>
+
+				<input type="radio" id="option2" name="select" value="15"><label for="option2">5 - 15</label><br>
+
+				<input type="radio" id="option3" name="select" value="allDay"><label for="option3">All days</label><br>
+			</div>
+			<div class="form-group">
+				<p>¿Que dias te gustaria salir a pedalear?</p>
+				<input type="checkbox" name="semana" id="opt1" value="week"><label for="opt1">Toda la Semana</label>
+				<input type="checkbox" name="weekend" id="opt2" value="weekend"><label for="opt2">Fines de
+					Semana</label>
+			</div>
+			<div class="form-group">
+				<textarea name="comments" id="textarea" cols="30" rows="10"></textarea>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Enviar" id="submit">
+			</div>
+		</form>
+	</div>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

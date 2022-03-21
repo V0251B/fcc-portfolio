@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  background-image: url(/assets/images/form-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+}
+html {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  color: lightgrey;
+}
+p {
+  line-height: 1.2;
+  margin: 2rem auto 2rem auto;
+}
+.container {
+  margin: 0 auto 1.25rem auto;
+  max-width: 900px;
+}
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+  display: flex;
+  flex-direction: column;
+}
+.inner {
+  background: rgba(27, 27, 50, 0.8);
+  padding: 2rem;
+  border-radius: 25px;
+}
+input,
+select,
+button,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+label {
+  display: flex;
+  flex-direction: wrap;
+  margin-bottom: 0.5rem;
+}
